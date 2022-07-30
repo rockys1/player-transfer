@@ -71,6 +71,7 @@
     padding: 25px 30px;
     border-radius: 10px;
 }
+
 .input{
     text-decoration: none;
     border: 1px solid rgb(0, 0, 0);
@@ -82,6 +83,7 @@
     color: #060606;
     padding: 20px;
     border-radius: 10px;
+    transition: width 1s , height 1s,  transform 1s;
 }
 .side-bar nav > button{
     margin: 16px;
@@ -119,8 +121,10 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-   
-    
+}
+
+.players{
+    text-align: center;
 }
 
 .paragraph{
@@ -243,7 +247,7 @@ footer > hr{
 }
 
 /* -----Tablet or Medium screen devices----- */
-@media only screen and (min-width: 689px) and (max-width: 992px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
     .banner-title{
         padding-bottom: 20px;
     }
